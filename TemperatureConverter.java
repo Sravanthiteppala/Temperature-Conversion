@@ -1,34 +1,14 @@
 import java.util.Scanner;
 
-/**
- * A self-contained, professional Temperature Converter application.
- * Perfect for a quick GitHub repository upload.
- */
-public class TemperatureConverterApp {
+ for a quick GitHub repository upload.
 
-    // =========================================================================
-    // 1. CORE LOGIC (Utility Methods)
-    // =========================================================================
-    
-    /**
-     * Converts Celsius to Fahrenheit.
-     * Formula: (C * 9/5) + 32
-     */
+public class TemperatureConverterApp {
     public static double celsiusToFahrenheit(double celsius) {
         return (celsius * 9 / 5) + 32;
     }
-
-    /**
-     * Converts Fahrenheit to Celsius.
-     * Formula: (F - 32) * 5/9
-     */
     public static double fahrenheitToCelsius(double fahrenheit) {
         return (fahrenheit - 32) * 5 / 9;
     }
-
-    // =========================================================================
-    // 2. USER INTERFACE & APPLICATION ENTRY POINT
-    // =========================================================================
     public static void main(String[] args) {
         // Try-with-resources ensures the scanner closes automatically, preventing leaks
         try (Scanner scanner = new Scanner(System.in)) {
